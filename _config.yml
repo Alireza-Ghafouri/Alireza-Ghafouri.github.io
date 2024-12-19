@@ -21,7 +21,7 @@ repository               : "Alireza-Ghafouri/Alireza-Ghafouri.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Photo.jpg"
   name             : "Alireza Ghafouri"
   pronouns         : "he/him" # example: "she/her"  
   bio              : "Computer Vision Researcher"
