@@ -1,13 +1,16 @@
 ---
-title: "Saliency Map Prediction with Deep ConvNets"
-excerpt: "CNN-based saliency map prediction inspired by 'Shallow and Deep Convolutional Networks for Saliency Prediction'.<br/><img src='/images/saliency.jpg'>"
+title: "Saliency Map Prediction"
+excerpt: "Predict human visual attention maps from images using deep learning.<br/><img src='/images/500x300.png'>"
 collection: projects
+link: "https://github.com/Alireza-Ghafouri/Saliency-Map-Prediction"
 ---
 
-This project implements a convolutional neural network for **saliency map prediction**, inspired by the Deep ConvNet architecture proposed in *“Shallow and Deep Convolutional Networks for Saliency Prediction”* (CVPR 2016). The goal is to predict regions of an image that are most likely to attract human visual attention.
+This project focuses on **predicting saliency maps** (human visual attention) from images using deep learning models.
 
-The framework uses the **2000cat** dataset, a smaller subset of the SALICON dataset, and follows the paper’s methodology with a reduced-depth Deep ConvNet to keep memory and computation manageable. Training is performed with an **L2 loss** on saliency maps, using an **85%-15% train–validation split** with uniform sampling across classes. All key hyperparameters, dataset paths, and output directories are configurable via a dedicated `config` file.
+Main aspects of the project include:
+- Implementing a model to map input images to continuous-valued saliency maps.
+- Training and evaluation on saliency prediction datasets.
+- Comparing qualitative saliency maps and quantitative performance across settings.
 
-During training, the code saves the trained model, logs, and **visualization plots** of the predicted saliency maps, enabling qualitative and quantitative analysis of the model’s behavior.
-
-👉 [View the code on GitHub](https://github.com/Alireza-Ghafouri/Saliency-Map-Prediction)
+👉 Full code and detailed description:  
+[Saliency Map Prediction on GitHub](https://github.com/Alireza-Ghafouri/Saliency-Map-Prediction)
