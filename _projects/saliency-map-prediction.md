@@ -1,6 +1,6 @@
 ---
 title: "Saliency Map Prediction"
-excerpt: "Predict human visual attention maps from images using deep learning.<br/><img src='/images/500x300.png'>"
+excerpt: "Predict human visual attention maps from images using deep learning.<br/><img src='/images/saliency.jpg'>"
 collection: projects
 link: "https://github.com/Alireza-Ghafouri/Saliency-Map-Prediction"
 ---
