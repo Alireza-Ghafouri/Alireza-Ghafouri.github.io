@@ -9,7 +9,6 @@ main:
     # url: /cv/
     url: /files/Alireza_Ghafouri_CV.pdf
     
-    
   # - title: "Publications"
   #   url: /publications/
 
@@ -17,7 +16,10 @@ main:
     url: /talks/    
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
+
+  - title: "Projects"
+    url: /projects/     
     
   # - title: "Portfolio"
   #   url: /portfolio/
