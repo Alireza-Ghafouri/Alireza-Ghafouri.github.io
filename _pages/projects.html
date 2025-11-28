@@ -1,9 +1,13 @@
 ---
-layout: collection   # or 'archive' depending on your theme
-title: "Selected Course Projects"
+layout: archive
+title: "Projects"
 permalink: /projects/
+author_profile: true
 collection: projects
-entries_layout: grid  # optional, depends on theme
 ---
 
-Here you can briefly describe your course projects.
+{% include base_path %}
+
+{% for post in site.projects %}
+  {% include archive-single.html %}
+{% endfor %}
